@@ -3,7 +3,8 @@ self.addEventListener('install', (e) => {
     caches.open('dashboard-store').then((cache) => cache.addAll([
       './',
       './index.html',
-      './manifest.json'
+      './manifest.json',
+      './logo.png'
     ]))
   );
 });
