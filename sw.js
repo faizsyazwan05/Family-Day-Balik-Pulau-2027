@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('dashboard-store').then((cache) => cache.addAll([
+    caches.open('dashboard-store-v2').then((cache) => cache.addAll([
       './',
       './index.html',
       './manifest.json',
